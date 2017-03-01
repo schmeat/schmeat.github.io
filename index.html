@@ -1,54 +1,96 @@
 <!DOCTYPE HTML>
 <!--
-	Aerial 1.0 by HTML5 UP
-	html5up.net | @n33co
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Website of Sumeet Gill</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-			<link rel="stylesheet" href="css/style-noscript.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<title>Sumeet Gill</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+	<body class="is-loading">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Sumeet Gill</h1>
-						<p>Mobile App Developer &nbsp;&bull;&nbsp; iOS &nbsp;&bull;&nbsp; BlackBerry</p>
-						<nav>
-							<ul>
-								<li><a href="https://bitbucket.org/sumeetgill" target="_new" class="fa solo fa-bitbucket"><span>Bitbucket</span></a></li>
-								<li><a href="http://www.linkedin.com/in/gillsumeet" target="_new" class="fa solo fa-linkedin"><span>LinkedIn</span></a></li>
-								<li><a href="https://angel.co/sumeet-gill" target="_new" class="fa solo fa-circle-o"><span>Angel List+</span></a></li>
-								<li><a href="https://itunes.apple.com/us/artist/sumeet-gill/id871585603" target="_new" class="fa solo fa-apple"><span>App Store</span></a></li>
-								<li><a href="mailto:sumeet.gill+website@gmail.com" class="fa fa-envelope-o"><span>Email</span></a></li>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/handsome_devil.png" alt="" /></span>
+							<h1>Sumeet Gill</h1>
+							<p>Mobile (iOS) Software Developer</p>
+						</header>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+							</div>
+							<div class="field">
+								<label>But are you a robot?</label>
+								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Get Started</a></li>
 							</ul>
-						</nav>
-					</header>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="http://www.linkedin.com/in/gillsumeet" class="fa-linkedin">LinkedIn</a></li>
+								<li><a href="https://bitbucket.org/sumeetgill" class="fa-bitbucket">BitBucket</a></li>
+								<li><a href="https://angel.co/sumeet-gill" class="fa-angellist">Angel.Co</a></li>
+								<li><a href="mailto:sumeet.gill+website@gmail.com" class="fa-envelope">Email</a></li>
+							</ul>
+						</footer>
+					</section>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<span class="copyright">&copy; 2014, Sumeet Gill. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+						<ul class="copyright">
+							<li>&copy; Sumeet Gill</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
 					</footer>
-				
+
 			</div>
-		</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
 	</body>
 </html>
